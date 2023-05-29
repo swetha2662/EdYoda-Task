@@ -1,0 +1,136 @@
+body {
+    background-image: url("bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.box{
+    border: 1px solid #f7e2e2;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px;
+    margin-right: 70px;
+    margin-bottom: 70px;
+    width:fit-content;
+    float: right;
+    background-color: white;
+
+  }
+  
+
+.course-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    float: right;
+    width:fit-content;
+    height: fit-content;
+    font-size: 12px;
+  }
+  
+.course-box {
+    display: flex; 
+    flex-direction: column; 
+    border: 2px solid #c9c1c1;
+    border-radius: 5px;
+    padding: 7px;
+    margin: 5px;
+    width: 400px;
+    float: right;
+  }
+.course-box.selected {
+    border-color: #00c853;
+    background-color: skyblue;
+  }
+
+.course-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.course-label{
+    display: flex;
+    align-items: center;
+    height: fit-content;
+}
+.smallbox{
+    font-size: 6px;
+    border: 1px solid #404241;
+    background: 5px;
+    width:fit-content ;
+    font-weight: bold;
+    margin-left: 25px;
+    margin-bottom: 5px;
+
+}
+
+.big-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 15px;
+    border-radius: 5px;
+    text-align: center;
+    width: max-content;
+  }
+  
+  .cancel-button {
+    border: 1px solid red;
+    color: white;
+    background-color: red;
+  }
+  
+  .proceed-button {
+    border: 1px solid green;
+    color: white;
+    background-color: green;
+  }
+  
+
+.expired {
+    background-color: #999393;
+    
+  }
+.costcls{
+    text-align: right;
+    font-size: 7px;
+    flex-direction: column;
+}
+
+.centercls{
+    text-align: center;
+  }
+.rscls{
+    font-size: 12px;
+    font-weight: bold;
+    text-align: right;
+    flex-direction: column;
+}
+
+.rscls1{
+    font-size: 10px;
+    font-weight: bold;
+}
+
+input[type="radio"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+  
+  input[type="radio"]::before {
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #404241;
+    border-radius: 50%;
+    margin-right: 5px;
+    visibility: visible;
+    transform: translateY(-50%);
+  }
+  input[type="radio"]:checked::before {
+    visibility: visible; 
+    border: 1px solid #00C853;
+    background-color: #00C853;
+  }
+  

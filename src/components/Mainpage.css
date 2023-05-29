@@ -1,0 +1,39 @@
+.headingcls{
+    margin-top: 40px;
+    margin-left: 175px;
+    justify-content: space-between;
+    font-size: 30px;
+    color: antiquewhite;
+}
+
+.strike{
+    text-decoration: line-through;
+    color: red;
+}
+
+.highlight{
+    background-clip: text;
+  -webkit-background-clip: text; 
+  color: transparent;
+  background-image: linear-gradient(to right,#0048FF,#0096FF);
+
+}
+
+.context{
+ font-size: 25px;
+ letter-spacing: 1.5px; 
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul li {
+    margin-bottom: 10px; 
+  }
+
+img{
+    height:35px;
+    width:40px;
+    padding-right: 10px;
+}  

@@ -1,0 +1,42 @@
+.navbar {
+  height: 60px;
+}
+
+.rightnav {
+  display:contents;
+  align-items: right;
+  margin-left: auto;
+  justify-content: flex-end;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #333;
+  }
+    
+  .navbar-nav.ms-auto .nav-link {
+    margin-right: 20px;
+  }
+  
+  .navbar-nav.navbar-nav.ms-auto .btn-primary {
+    background-color: #0056b3;
+    border-color: #0056b3;
+    color:white;
+  }
+  
+  .navbar-nav.navbar-nav.ms-auto .btn-primary:hover,
+  .navbar-nav.ml-auto .btn-primary:focus {
+    background-color: white;
+    border-color: #0056b3;
+    color:#0056b3;
+  }
+  
+.edyoda{
+  margin-left: 30px;
+  background-clip: text;
+  -webkit-background-clip: text; 
+  color: transparent;
+  background-image: linear-gradient(to right,#0048FF,#0096FF);
+  font-weight: bolder;
+  font-size: x-large;
+}
